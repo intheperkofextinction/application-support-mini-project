@@ -1,0 +1,7 @@
+﻿Ticket ID,Issue Summary,SQL Query,API Test,Status,Resolution Notes,
+T001,User login failing,SELECT * FROM users WHERE email = 'user@example.com';,POST /login,Resolved,Password reset,
+T002,Dashboard loads slow,SELECT * FROM analytics WHERE user_id=123;,GET /dashboard,Resolved,Optimized queries,
+T003,Payment failure,SELECT * FROM payments WHERE txn_id='XYZ123';,POST /payment/process,Pending,Escalated to billing,
+T004,Profile picture not updating,SELECT * FROM profiles WHERE user_id=456;,PUT /profile/update,Resolved,Image size corrected,
+T005,Session timeout error,No SQL needed,GET /dashboard,Resolved,Session cookie settings adjusted,
+,,,,,,
